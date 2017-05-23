@@ -6,7 +6,7 @@ public enum Gear {
     THREE("3"),
     FOUR("4"),
     FIVE("5"),
-    SIX("7"),
+    SIX("6"),
     RETROGRADE("R"),
     NONE("0");
 
