@@ -6,8 +6,8 @@ public class FuelComponent implements IComponent {
 
     @Override
     public String getData() {
-        return "Current fuel burning: " + currFuelBurning() + " " + unit() +
-                ", average fuel burning:" + avgFuelBurning() + " " + unit();
+        return "Current FUEL burning: " + currFuelBurning() + " " + unit() +
+                ", average FUEL burning:" + avgFuelBurning() + " " + unit();
     }
 
     @Override

@@ -1,3 +1,3 @@
 public enum EComponent {
-    fuel, oilTemperature, oilPressure, wheelPressure, gear
+    FUEL, OIL_TEMPERATURE, OIL_PRESSURE, WHEEL_PRESSURE, GEAR_BOX
 }

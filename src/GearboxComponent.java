@@ -1,5 +1,5 @@
 public class GearboxComponent implements IComponent {
-    private final String unit = "gear";
+    private final String unit = "GEAR_BOX";
 
     public Gear currGear() {
         return Gear.getRandom();
@@ -7,7 +7,7 @@ public class GearboxComponent implements IComponent {
 
     @Override
     public String getData() {
-        return "Current gear: " + currGear() + unit();
+        return "Current GEAR_BOX: " + currGear() + unit();
     }
 
     @Override
