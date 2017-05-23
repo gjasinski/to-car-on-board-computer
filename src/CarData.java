@@ -10,4 +10,7 @@ public class CarData {
         components.put(EComponent.wheelPressure, new WheelComponent());
         components.put(EComponent.gear, new GearboxComponent());
     }
+    public IComponent get(EComponent component) {
+        return components.get(component);
+    }
 }
