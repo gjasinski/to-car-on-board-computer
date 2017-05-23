@@ -15,6 +15,6 @@ public class OilTemperatureComponent implements IComponent {
 
     @Override
     public String unit() {
-        return null;
+        return unit;
     }
 }
